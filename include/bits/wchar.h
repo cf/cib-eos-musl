@@ -4,7 +4,7 @@
 #include <bits/stddef.h>
 
 #ifndef __cplusplus
-typedef uint32_t wchar_t; // XXX is this correct?
+typedef __WCHAR_TYPE__ wchar_t;
 #endif
 
 // if we support wstring make sure that this is correct
