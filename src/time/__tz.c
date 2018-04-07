@@ -5,6 +5,9 @@
 #include <string.h>
 #include "libc.h"
 
+// Prevent name collision
+#define index _index
+
 long  __timezone = 0;
 int   __daylight = 0;
 char *__tzname[2] = { 0, 0 };
